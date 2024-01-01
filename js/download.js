@@ -26,9 +26,9 @@ function getQueryVariable(variable) {
 	let mylink
 	let downFlag = await getQueryVariable("c")
 	if (downFlag && downFlag != '') {
-		mylink = "https://ossyd00.ersfdokm.com/teenpattirichapk/teenpattirich901.apk"
+		mylink = "https://www.dropbox.com/scl/fi/n5dfj4mecmgm6quhm4day/Zoo-Zimba.apk?rlkey=x8j23t0pi0p98kbzpwgbk477i&dl=1"
 	}else{
-		mylink = "https://ossyd00.ersfdokm.com/teenpattirichapk/teenpattirich901.apk"
+		mylink = "https://www.dropbox.com/scl/fi/n5dfj4mecmgm6quhm4day/Zoo-Zimba.apk?rlkey=x8j23t0pi0p98kbzpwgbk477i&dl=1"
 	}
 
 	var u = navigator.userAgent;

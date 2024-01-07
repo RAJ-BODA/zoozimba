@@ -26,11 +26,10 @@ function getQueryVariable(variable) {
 	let mylink
 	let downFlag = await getQueryVariable("c")
 	if (downFlag && downFlag != '') {
-		mylink = "https://www.dropbox.com/scl/fi/n5dfj4mecmgm6quhm4day/Zoo-Zimba.apk?rlkey=x8j23t0pi0p98kbzpwgbk477i&dl=1"
+		mylink = "https://www.dropbox.com/scl/fi/n5dfj4mecmgm6quhm4day/Zoo-Roulette.apk?rlkey=x8j23t0pi0p98kbzpwgbk477i&dl=1"
 	}else{
-		mylink = "https://www.dropbox.com/scl/fi/n5dfj4mecmgm6quhm4day/Zoo-Zimba.apk?rlkey=x8j23t0pi0p98kbzpwgbk477i&dl=1"
+		mylink = "https://www.dropbox.com/scl/fi/n5dfj4mecmgm6quhm4day/Zoo-Roulette.apk?rlkey=x8j23t0pi0p98kbzpwgbk477i&dl=1"
 	}
-
 	var u = navigator.userAgent;
 	//Android
 	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
